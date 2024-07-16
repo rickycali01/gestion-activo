@@ -1,0 +1,23 @@
+.form-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.467);
+  }
+  
+  .form-container2 button {
+    margin-top: 10px; /* Ajusta el espacio entre los elementos si es necesario */
+  }
+
+  .form-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.467);
+  }
+  
+  .form-container3 button {
+    margin-top: 5px; /* Ajusta el espacio entre los elementos si es necesario */
+  }

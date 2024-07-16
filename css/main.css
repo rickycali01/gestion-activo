@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    }
+   
+    body, html {
+        height: 100%;
+        margin: 0;  
+    }
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+/* Estilos para las facultades -----------------------------------------------------------*/
+.facultad {
+
+    width: calc(30% - 20px); /* Ajusta el ancho de cada facultad (30% para tres columnas) */
+    margin: 1%; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 15px; 
+    overflow: hidden;
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgb(158, 40, 40); /* Sombra sutil */
+    display: inline-block; /* Alinea las facultades en línea */
+    vertical-align: top; /* Alinea las facultades en la parte superior */
+}
+
+
+.facultad img {
+    border-radius: 10px; 
+    max-height: 150px; 
+}
+
+
+.facultad p {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000000; /* Color del texto */
+}
+
+/* Estilos para el icono del footer---------------------------------------------------------------------------------- */
+
+footer {
+    background-color: #888888; 
+    color: #fff; 
+    text-align: center;
+    padding: 5px; 
+    /* position: fixed; Fijar el footer en la parte inferior */
+    width: 100%;
+    bottom: 0;
+    font-size: 14px; 
+  }
+  
+
+  
+

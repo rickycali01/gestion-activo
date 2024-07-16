@@ -1,0 +1,86 @@
+
+body {
+  background-image: url('../image/fondoUleam.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  opacity: 0.9; /* Valor entre 0 (transparente) y 1 (completamente opaco) */
+}
+
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+input, select{
+  margin-bottom: 15px;
+  width: calc(100% - 30px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.boton {
+  margin-bottom: 15px;
+  width: calc(100% - 30px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.boton {
+  background-color: #60a16d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.boton:hover {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+select {
+  width: 100%;
+}
+
+
+h1 {
+  text-align: center;
+  color: #10551e;
+  font-size: 30px; 
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  margin-bottom: 20px; 
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Añade una sombra al texto */
+}
+
+
+label {
+  display: block; 
+  font-size: 18px; 
+  color: #282828; 
+  margin-bottom: 6px; 
+  font-weight: bold; /* Fuente en negrita */
+  font-family: Arial, sans-serif; 
+}
+
+
